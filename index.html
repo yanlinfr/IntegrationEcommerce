@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Living Room Furniture | Furniture HomeStore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous"
+  />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type= 'text/css' href="int.css">
+  <link rel="stylesheet" type= 'text/css' href="stylev2.css">
+</head>
+<body>
+
+  <div>
+    <!-- le header -->
+    <header>
+      <!-- Gauche -->
+      <nav class="main-nav">
+        <span class="header_left">
+          <img alt="Menu" title="Menu" src="logo/Logo.png" />
+          <a class="d-none d-sm-block" href="#">HOME</a>
+          <a class="d-none d-sm-block" href="#">SHOP</a>
+          <a class="d-none d-sm-block" href="#">MAGAZINE</a>
+        </span>
+
+        <!-- Droite -->
+
+        <div class="header_right">
+          <img
+            alt="Cart"
+            src="logo/CartButton.png"
+            class="header_right"
+            id="cartHeader"
+          />
+          <a class="d-none d-sm-block" href="#">LOGIN</a>
+         <div class="btn-group dropleft d-block d-sm-none">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+              &#9776;
+            </button>
+            <div class="dropdown-menu">
+              <!-- Dropdown menu links -->
+              <a class="dropdown-item" href="#">HOME</a>
+              <a class="dropdown-item" href="#">SHOP</a>
+              <a class="dropdown-item" href="#">MAGAZINE</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Search bar, Best Match -->
+    <div class="d-none d-sm-block"> <!-- search + best-->
+    <div id="search_bestmatch">
+      <img alt="Search Logo" id="searchLogo" src="logo/Search.png" />
+
+      <div id="search_bar">
+          <div class="input-group mb-3">
+              <input type="text" class="form-control" value="living room" >
+
+</div>
+
+              <img alt="Sajari Logo" src="logo/SajariLogo.png" />
+            </div>
+
+          <!-- formulaire déroulant-->
+
+          <div class="col-sm-3" id="divSelect">
+            <select
+              class="form-control form-control-lg searchInput"
+              id="searchSelect"
+            >
+              <option>Best match</option>
+            </select>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="mobsearchbar d-block d-sm-none"><!--search bar mobile-->
+  <img class="moblogosearch" alt="Search Logo" src="logo/Search.png" />
+      <div class="mobsearch">
+          <div class="input-group mb-3">
+              <input type="text" class="form-control" value="living room" aria-label="Recipient's username" aria-describedby="basic-addon2">
+
+      </div>
+
+              <img alt="Sajari Logo" src="logo/SajariLogo.png" />
+            </div>
+</div>
+<div class="bestmatchmobile d-block d-sm-none"> <!--mobile best match-->
+  <nav class="dropdownmob d-block d-sm-none">
+    <button class="dropbtnmob d-block d-sm-none">Best match</button>
+    <nav class="dropdown-contentmob">
+      <a href="#">Option1</a>
+      <a href="#">Option2</a>
+      <a href="#">Option3</a>
+   </nav>
+ </nav>
+</div>
+
+
+
+  <div class="responsive">
+          <div class="sidemenu">
+            <nav class="dropdownmob d-block d-sm-none"> <!--version mobile-->
+              <button class="dropbtnmob d-block d-sm-none">Filters</button>
+              <nav class="dropdown-contentmob">
+                <a href="#">Collection</a>
+                <a href="#">Category</a>
+                <a href="#">Color</a>
+              </nav>
+            </nav>
+
+      <h2 class="filterby dropdown d-none d-sm-block"><strong>FILTER BY</strong></h2>
+                <nav class="dropdown d-none d-sm-block">
+              <button class="dropbtn">Collection</button>
+              <nav class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </nav>
+                </nav>
+
+              <nav class="dropdown d-none d-sm-block">
+              <button class="dropbtn">Color</button>
+              <nav class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              </nav>
+                </nav>
+
+
+              <nav class="dropdown d-none d-sm-block">
+            <button class="dropbtn">Category</button>
+            <nav class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </nav>
+          </nav>
+
+
+      <div class="slidecontainer d-none d-sm-block">
+      <p class="pricerange">Price Range</p>
+      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      </div>
+      <div class= "pricerange d-none d-sm-block">
+      <p class="priceleft">$0</p>
+      <p class="priceright">$10.000+</p>
+      </div>
+
+    </div>
+  </div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="logo/placeholder.png" alt="palceholder" width="600" height="400">
+    </a>
+    <div class="desc">
+          <div class="row1">
+            <p class="item">Coombes</p>
+            <p class="price">$2.600</p>
+
+          </div>
+          <div class="row2">
+            <p class="category">LOUNGES</p>
+              <div class="notation">
+            
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile"  style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile"  style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png"  alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star.png" alt="logo étoile vide" style="width:100%">
+                    </div>
+                    </div>
+
+
+              </div>
+              <div class="cart">
+              <img class="logocart" src="logo/CartButton.png" alt="cartbutton">
+              </div>
+          </div>
+
+
+
+
+    </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="logo/placeholder.png" alt="palceholder" width="600" height="400">
+    </a>
+    <div class="desc">
+          <div class="row1">
+            <p class="item">Keeve Set</p>
+            <p class="price">$590</p>
+
+          </div>
+          <div class="row2">
+            <p class="category">TABLES & CHAIRS</p>
+              <div class="notation">
+                <div class="">
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png"  alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star.png" alt="logo étoile vide" style="width:100%">
+                    </div>
+                    </div>
+
+
+              </div>
+              <div class="cart">
+              <img class="logocart" src="logo/CartButton.png" alt="cartbutton">
+              </div>
+          </div>
+
+
+
+
+    </div>
+  </div>
+</div><div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="logo/placeholder.png" alt="palceholder" width="600" height="400">
+    </a>
+    <div class="desc">
+          <div class="row1">
+            <p class="item">Nillè</p>
+            <p class="price">$950</p>
+
+          </div>
+          <div class="row2">
+            <p class="category">ARMCHAIR</p>
+              <div class="notation">
+                <div class="">
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png"  alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star.png" alt="logo étoile vide" style="width:100%">
+                    </div>
+                    </div>
+
+
+              </div>
+              <div class="cart">
+              <img class="logocart" src="logo/CartButton.png" alt="cartbutton">
+              </div>
+          </div>
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div>
+<div class="responsive d-none d-sm-block">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="logo/placeholder.png" alt="palceholder" width="600" height="400">
+    </a>
+    <div class="desc">
+          <div class="row1">
+            <p class="item">Blanko</p>
+            <p class="price">$90</p>
+
+          </div>
+          <div class="row2">
+            <p class="category">SIDE TABLE</p>
+              <div class="notation">
+                <div class="">
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png"  alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star.png" alt="logo étoile vide" style="width:100%">
+                    </div>
+                    </div>
+
+
+              </div>
+              <div class="cart">
+              <img class="logocart" src="logo/CartButton.png" alt="cartbutton">
+              </div>
+          </div>
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+<div class="responsive d-none d-sm-block">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="logo/placeholder.png" alt="palceholder" width="600" height="400">
+    </a>
+    <div class="desc">
+          <div class="row1">
+            <p class="item">Momo</p>
+            <p class="price">$890</p>
+
+          </div>
+          <div class="row2">
+            <p class="category">SHELVES</p>
+              <div class="notation">
+                <div class="">
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png"  alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star.png" alt="logo étoile vide" style="width:100%">
+                    </div>
+                    </div>
+
+
+              </div>
+              <div class="cart">
+              <img class="logocart" src="logo/CartButton.png" alt="cartbutton">
+              </div>
+          </div>
+
+
+
+
+    </div>
+  </div>
+</div><div class="responsive d-none d-sm-block">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="logo/placeholder.png" alt="palceholder" width="600" height="400">
+    </a>
+    <div class="desc">
+          <div class="row1">
+            <p class="item">Penemillè</p>
+            <p class="price">$120</p>
+
+          </div>
+          <div class="row2">
+            <p class="category">CHAIR</p>
+              <div class="notation">
+                <div class="">
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png"  alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    </div>
+
+
+              </div>
+              <div class="cart">
+              <img class="logocart" src="logo/CartButton.png" alt="cartbutton">
+              </div>
+          </div>
+
+
+
+
+    </div>
+  </div>
+</div><div class="responsive d-none d-sm-block">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="logo/placeholder.png" alt="palceholder" width="600" height="400">
+    </a>
+    <div class="desc">
+          <div class="row1">
+            <p class="item">Kappu</p>
+            <p class="price">$420</p>
+
+          </div>
+          <div class="row2">
+            <p class="category">SHELVES</p>
+              <div class="notation">
+                <div class="">
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png" alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star-On.png"  alt="logo étoile" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="logo/Star.png" alt="logo étoile vide" style="width:100%">
+                    </div>
+                    </div>
+
+
+              </div>
+              <div class="cart">
+              <img class="logocart" src="logo/CartButton.png" alt="cartbutton">
+              </div>
+          </div>
+
+
+
+
+    </div>
+  </div>
+</div>
+<!-- PAGINATION -->
+
+<div id="pagination">
+  <p class="active">1</p>
+  <p>2</p>
+  <p>3</p>
+  <p>4</p>
+  <p class="d-none d-sm-block">5</p>
+  <p class="d-none d-sm-block">6</p>
+  <p class="d-none d-sm-block">7</p>
+  <p class="d-none d-sm-block">8</p>
+  <p class="d-none d-sm-block">9</p>
+  <p class="d-none d-sm-block">10</p>
+  <p>></p>
+</div>
+
+
+<div class="clearfix"></div>
+<footer></footer>
+</body>

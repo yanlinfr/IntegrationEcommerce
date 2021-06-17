@@ -1,0 +1,200 @@
+/***** Style *****/
+@font-face{
+  src :url(fonts/Roboto-Regular.ttf);
+  font-family: Roboto;
+  src :url(fonts/Metropolis-Regular.otf);
+  font-family: Avenir;
+}
+/* Navigation */
+.main-nav {
+  font-family: Avenir;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 15px;
+}
+.header {
+  width: 100%;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 25px;
+  color: black;
+}
+
+/***** Corps *****/
+/*FILTER BY*/
+.sort_by {
+  border: 0;
+  border-bottom: 0.8px solid grey;
+}
+body {
+  font-family: Avenir;
+  margin: 0 0vw;
+}
+
+/*Search bar, Best Match*/
+#search_bestmatch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+#divSelect {
+  margin-right: 10px;
+}
+
+#searchSelect {
+  border
+}
+
+#search_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+#search_bar div {
+  margin-bottom: 0!important;
+}
+
+#searchLogo {
+  margin-left: 30px;
+}
+
+#search_bar img {
+  margin-left: -50px;
+  z-index: 1;
+}
+
+.form-control {
+  font-family: Roboto;
+  font-size: 1.5em;
+  border: 0;
+  border-bottom: 1.5px solid black;
+  border-radius: 0;
+}
+#searchSelect {
+  border: none;
+  margin-right: 20px;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(211, 200, 200, 0.5);
+}
+
+/*pagination*/
+#pagination {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 0 30px;
+}
+
+#pagination p {
+  width: 1.8em;
+  height: 1.8em;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 0.3em;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+.mobsearch{
+  width: 85%;
+  float:left;
+  border : none;
+
+}
+.moblogosearch{
+width : 10%;
+float:left;
+margin-right: 10px;
+
+}
+.mobsearchbar{
+  width : 100%;
+  margin-top: 30px;
+
+}
+.bestmatchmobile{
+  width : 87%;
+  align-items: center;
+  margin-left: 22px;
+
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    padding: 0;
+  }
+
+  .main-nav {
+    padding: 0;
+  }
+
+  .header_left img {
+    border-radius: 100% 0 0 0;
+  }
+
+  .dropleft button {
+    background-color: white;
+    color: black;
+    font-size: 2.1em;
+    border: 0;
+    margin-right: 15px;
+  }
+
+  .show>.btn-secondary.dropdown-toggle {
+    background-color: white;
+    color: black;
+    border: 0;
+    box-shadow: none!important;
+  }
+
+  .mobsearch img {
+    float: right;
+    margin-right: 21px;
+    margin-top: -5px;
+  }
+
+  .moblogosearch {
+    margin-left: 17px;
+    margin-right: 0;
+    margin-top: 15px;
+    height: 30px;
+    width: auto;
+  }
+
+  .input-group {
+    width: 88%;
+    margin-left: 21px;
+  }
+
+  #cartHeader {
+    margin-right: 30px;
+  }
+
+  .dropleft .dropdown-toggle::before {
+    display: none;
+  }
+
+  #pagination {
+    width: 87vw;
+  }
+}
